@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra il tuo biglietto</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main class="container">
+
+        <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+
+        <div id="top-part">
+
+            <div class="flex">
+
+                <div>
+
+                    <span>Nome Cognome</span><br>
+                    <input class="ms_border" type="text" id="name">
+
+                </div>
+
+                <div>
+
+                    <span>Km da percorrere</span><br>
+                    <input class="ms_border" type="number" id="km">
+
+                </div>
+                
+                <div>
+
+                    <span>Fascia d'età</span><br>
+                    <select class="ms_border" id="age">
+                        <option value="minorenne">Minorenne</option>
+                        <option value="maggiorenne">Maggiorenne</option>
+                        <option value="over-65">Over 65</option>
+                    </select>
+
+                </div>
+                
+            </div>
+
+            <div class="button-content">
+
+                <button class="ms_button" id="genera">Genera</button>
+
+                <button class="ms_button" id="annulla">Annulla</button>
+
+            </div>
+
+        </div>
+
+        <div id="bottom-part">
+
+        </div>
+
+    </main>
+
+
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
